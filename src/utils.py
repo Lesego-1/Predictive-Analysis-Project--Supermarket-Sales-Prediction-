@@ -33,7 +33,7 @@ def store_clean_data(input_file):
     # Close database connection
     conn.close()
     
-def load_data(database, table):
+def load_sql_data(database, table):
     """
     Loads a table from a database to a pandas dataframe.
     """

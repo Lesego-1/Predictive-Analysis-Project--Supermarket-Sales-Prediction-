@@ -27,7 +27,7 @@ def clean_data(df):
         df.fillna(df.mean())
         
     # One hot encode data
-    df = pd.get_dummies(df, drop_first=True)
+    df = pd.get_dummies(df, drop_first=False)
     
     return df
 
@@ -38,7 +38,3 @@ def save_data(df, file_path):
     
     # Save the csv to the selected file
     df.to_csv(file_path, index=False)
-    
-#df = load_data(r"C:\Programming\Python\Capstone Projects\Predictive Analysis Project\data\raw_data.csv")
-#df_clean = clean_data(df)
-#save_data(df_clean, r"C:\Programming\Python\Capstone Projects\Predictive Analysis Project\data\processed_data.csv")

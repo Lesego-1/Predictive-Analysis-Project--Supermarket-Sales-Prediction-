@@ -11,5 +11,5 @@ def evaluate_model(y_true, y_pred):
     r_score = r2_score(y_true, y_pred)
     
     # Print out results
-    print(f"Mean Squared Error: {mse}")
-    print(f"R2 Score: {r_score}")
+    print(f"Mean Squared Error: {round(mse, 2)}")
+    print(f"R2 Score: {round(r_score, 2)}")
