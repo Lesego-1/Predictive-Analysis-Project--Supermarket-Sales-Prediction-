@@ -1,0 +1,14 @@
+# Predictive Analysis on Supermarket Sales Dataset
+
+# Problem being solved
+Determine which features have the most effect on the company's gross income, gross margin percentage and ratings using Predictive Analysis.
+
+# Process
+1. The data is loaded into a pandas dataframe from the raw_data folder.
+2. Data is processed and encoded to maximize model performance.
+3. Three Machine Learning Models are used to predict gross income and ratings.
+4. The models' performances are evaluated and output to determine which is best to use for this problem.
+5. The data is stored into a sqlite database.
+
+# Results
+The Ridge Regression Model had the lowest Mean Squared Error and the highest R2 value. This shows that it has the best balance of minimizing error and providing information on the variance of the data. The most important features to the target variales are: [](2 features). This means that (feature) and (feature) should be aspects to focus on to increase the company's gross income.
