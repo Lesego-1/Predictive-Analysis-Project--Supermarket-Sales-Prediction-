@@ -11,4 +11,4 @@ Predict gross income, gross margin percentage and ratings and find best model fo
 5. The data is stored into a sqlite database.
 
 # Results
-The Ridge Regression Model had the lowest Mean Squared Error and the highest R2 value. This shows that it has the best balance of minimizing error and providing information on the variance of the data. The most important features to the target variales are: [](2 features). This means that (feature) and (feature) should be aspects to focus on to increase the company's gross income.
+The Ridge Regression Model had the lowest Mean Squared Error and the highest R2 value. This shows that it has the best balance of minimizing error and providing information on the variance of the data.
