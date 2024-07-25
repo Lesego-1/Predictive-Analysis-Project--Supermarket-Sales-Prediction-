@@ -1,6 +1,7 @@
 from sklearn.linear_model import LinearRegression, Ridge
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
+import numpy as np
 
 def linear_regression_model(X_train, X_test, y_train):
     """

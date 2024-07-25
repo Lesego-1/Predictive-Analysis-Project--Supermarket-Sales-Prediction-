@@ -1,4 +1,5 @@
 from sklearn.metrics import mean_squared_error, r2_score
+import pandas as pd
 
 def evaluate_model(y_true, y_pred):
     """

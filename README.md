@@ -1,7 +1,7 @@
 # Predictive Analysis on Supermarket Sales Dataset
 
 # Problem being solved
-Determine which features have the most effect on the company's gross income, gross margin percentage and ratings using Predictive Analysis.
+Predict gross income, gross margin percentage and ratings and find best model for predictions.
 
 # Process
 1. The data is loaded into a pandas dataframe from the raw_data folder.
